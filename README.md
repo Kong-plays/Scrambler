@@ -1,7 +1,7 @@
 # Scrambler
 Scrambler is a fun text game for your Minecraft server! It allows you to reward players for having fast typing skills and being engaged in chat.
 
-##Config.YML
+## Config.YML
 ```YAML
 Plugin Prefix: '&8[&5Scrambler&8]'
 Interval: 60
@@ -19,7 +19,7 @@ rewards:
 >Maximum Length - The Maximum length of the word generated for the Scrambler Game
 >Reward Command - Command that is executed on completion of Game
 ```
-######Reward Commands PlaceHolders
+###### Reward Commands PlaceHolders
 ```
 > %SERVER% - Server Command
 > %PLAYER% - Player Command
@@ -27,7 +27,7 @@ rewards:
 ```
 
 
-##Permissions
+## Permissions
 ```YAML
   scrambler.*:
     description: Access all commands in Scrambler
