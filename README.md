@@ -12,14 +12,16 @@ rewards:
   Reward Command: '%SERVER% give {player} diamond 12'
 
 ```
-
+```
 >Plugin Prefix - The prefix before all messages in the plugin
 >Interval - Amount of seconds between automatically starting a Scrambler Game
 >Minimum Length - The Minimum length of the word generated for the Scrambler Game
 >Maximum Length - The Maximum length of the word generated for the Scrambler Game
 >Reward Command - Command that is executed on completion of Game
-
+```
 Reward Commands PlaceHolders
+```
 > %SERVER% - Server Command
 > %PLAYER% - Player Command
 > {Player} - Winning Player
+```
