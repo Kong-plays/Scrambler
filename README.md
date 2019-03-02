@@ -23,5 +23,25 @@ Reward Commands PlaceHolders
 ```
 > %SERVER% - Server Command
 > %PLAYER% - Player Command
-> {Player} - Winning Player
+> {player} - Winning Player
+```
+
+
+Permissions
+```YAML
+  scrambler.*:
+    description: Access all commands in Scrambler
+    default: op
+  scrambler.pause:
+    description: Pause Scrambler timer
+    default: op
+  scrambler.start:
+    description: Start Scrambler timer
+    default: op
+  scrambler.forcestop:
+    description: Stop a running Scrambler game
+    default: op
+  scrambler.frocestart:
+    description: Force start a Scrambler game
+    default: op
 ```
